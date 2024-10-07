@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+  <g id="Group_3" data-name="Group 3" transform="translate(-353 -447)">
+    <g id="Rectangle_3" data-name="Rectangle 3" transform="translate(353 447)" fill="#b7202d" stroke="#b7202d" stroke-width="1">
+      <rect width="34" height="34" stroke="none"/>
+      <rect x="0.5" y="0.5" width="33" height="33" fill="none"/>
+    </g>
+    <g id="info_-_icon" data-name="info - icon" transform="translate(355.456 449.456)">
+      <circle id="Icon_-_oval" data-name="Icon - oval" cx="14.544" cy="14.544" r="14.544" transform="translate(0 0)" fill="none" stroke="#fff" stroke-width="2"/>
+      <path id="i" d="M18.7,10.219q0-1.512,1.684-1.512t1.684,1.512a1.474,1.474,0,0,1-.421,1.121,1.769,1.769,0,0,1-1.263.4Q18.7,11.74,18.7,10.219Zm3.226,14.274H18.833V13.15h3.094Z" transform="translate(35.019 30.522) rotate(180)" fill="#fff" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>
